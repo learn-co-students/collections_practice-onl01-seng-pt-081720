@@ -32,9 +32,21 @@ def reverse_array(array)
 end 
 
 def find_a (array)
-  array.find do |word|
+  array.find_all do |word|
     word[0] == "a"
   end 
-    
-    
+  end 
+  
+def sum_array (array)
+  array.inject(0) {|sum, number| sum + number}
+end 
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
     
