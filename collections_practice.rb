@@ -32,11 +32,8 @@ def kesha_maker(array)
   new_name = ""
   array.each do |name|
     new_name = name
-    binding.pry
-    new_name.chomp([2])
     new_name[2] = "$"
     new_array << new_name
-    
   end
   return new_array
 end
