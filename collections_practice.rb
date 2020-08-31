@@ -34,5 +34,4 @@ def kesha_maker(array)
   array.each do |name|
     counter = name.length
     new_name = name
-    new_name = 
     new_array << 
