@@ -1,4 +1,4 @@
-require 'psy'
+require 'pry'
 def sort_array_asc(array)
   array.sort
 end
@@ -30,7 +30,7 @@ end
 def kesha_maker(array)
   new_array = []
   new_name = ""
-  
+  binding.pry
   array.each do |name|
     new_name = name
     new_name.chomp([2])
