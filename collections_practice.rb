@@ -58,7 +58,7 @@ def add_s(array)
   counter = 0
   
   array.each do |word|
-    if counter != 3
+    if counter != 1
       new_array << word + "s"
     else
       new_array << word
