@@ -29,10 +29,8 @@ end
 def kesha_maker(array)
   new_array = []
   new_name = ""
-  counter = 0
   
   array.each do |name|
-    counter = name.length
     new_name = name
     new_name.chomp([2])
     new_name[2] = "$"
