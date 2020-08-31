@@ -51,5 +51,5 @@ end
 
 def sum_array(array)
   new_sum = 0
-  
+  (array).inject
 end
