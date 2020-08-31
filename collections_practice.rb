@@ -34,5 +34,9 @@ def kesha_maker(array)
   array.each do |name|
     counter = name.length
     new_name = name
-    new_name.chomp
-    new_array << 
+    new_name.chomp([2])
+    new_name[2] = "$"
+    new_array << new_name
+  end
+  return new_array
+end
