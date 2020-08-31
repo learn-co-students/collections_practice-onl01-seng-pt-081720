@@ -54,3 +54,21 @@ def sum_array(array)
 end
 
 def add_s(array)
+  new_array = []
+  counter = 0
+  
+  array.each do |word|
+    if counter != 3
+      new_array << word + "s"
+    else
+      new_array << word
+    end
+    counter += 1
+  end
+  return new_array
+end
+
+
+
+
+
